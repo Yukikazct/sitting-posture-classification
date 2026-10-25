@@ -1,0 +1,30 @@
+{
+  "class_names": ["upright", "head_down", "forward_lean", "side_lean"],
+  "data": {"split_ratios": [0.7, 0.15, 0.15]},
+  "pose": {
+    "weights": "models/yolo11n-pose.pt",
+    "imgsz": 640,
+    "min_keypoint_confidence": 0.3,
+    "person_confidence": 0.25
+  },
+  "training": {
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 10,
+    "hidden_dims": [64, 32],
+    "dropout": 0.2
+  },
+  "baseline": {
+    "side_lean_angle_deg": 15.0,
+    "forward_lean_head_offset_x": 0.35,
+    "head_down_head_offset_y": -0.15
+  },
+  "reminder": {
+    "ema_alpha": 0.3,
+    "min_class_confidence": 0.6,
+    "abnormal_seconds": 3.0,
+    "recovery_seconds": 1.0,
+    "cooldown_seconds": 10.0
+  }
+}

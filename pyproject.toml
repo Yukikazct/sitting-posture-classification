@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sitting-posture-project"
+version = "0.1.0"
+description = "Reproducible sitting-posture classification course project"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24,<3", "torch>=2.2,<3"]
+
+[project.optional-dependencies]
+vision = ["ultralytics>=8.3,<9", "opencv-python>=4.8,<5"]
+plots = ["matplotlib>=3.7,<4"]
+
+[project.scripts]
+posture = "posture.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["posture*"]
