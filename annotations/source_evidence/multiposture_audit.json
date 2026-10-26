@@ -1,0 +1,26 @@
+{
+  "url": "https://zenodo.org/records/14230872",
+  "doi": "10.5281/zenodo.14230872",
+  "license": "cc-by-4.0",
+  "original_files": [
+    {
+      "name": "data.csv",
+      "size": 9327935,
+      "checksum": "md5:7efbc94d653acf32eefecec3ff26d6c6"
+    }
+  ],
+  "downloaded_mirror_csv_md5": "7efbc94d653acf32eefecec3ff26d6c6",
+  "rows": 4794,
+  "columns": 102,
+  "subjects": 13,
+  "upper_labels": {
+    "TLB": 442,
+    "TLF": 1897,
+    "TLL": 420,
+    "TLR": 420,
+    "TUP": 1615
+  },
+  "raw_images_available": false,
+  "reason": "Official source explicitly omits raw video/image data for participant privacy. No head-down class; can only support separate skeletal/trunk-posture comparison.",
+  "mirror_matches_official": true
+}

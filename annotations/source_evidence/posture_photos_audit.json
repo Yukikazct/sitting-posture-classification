@@ -1,0 +1,17 @@
+{
+  "url": "https://www.kaggle.com/datasets/melsmm/posture-keypoints-detection",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/melsmm/posture-keypoints-detection",
+  "archive_sha256": "d7d699d2d6ed4a94189c04af1ca41492905e4b3db4460fa0ba9c0eefa671a8f1",
+  "archive_bytes": 12811822,
+  "images": 300,
+  "split_counts": {
+    "train": 250,
+    "val": 50
+  },
+  "duplicate_pixels": [],
+  "near_cross_split_pairs": [],
+  "yaml": "path: /kaggle/input/posture-keypoints-detection\ntrain: images/train # train images (relative to 'path')\nval: images/val # val images (relative to 'path') \ntest: images/val\n\n# Keypoints\nkpt_shape: [4, 3] # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)\nflip_idx: [0, 1, 2, 3]\n\n# Classes dictionary\nnames:\n    0: person",
+  "metadata_license": "Apache 2.0",
+  "rights_limitation": "Numerous images visibly from iStock/Freepik; uploader license does not independently prove underlying photo permissions.",
+  "visual_scope": "All 300 contact-sheet images inspected. Mixture of standing, sitting, crouching, floor poses and some silhouettes; selected chair-sitting photos can supplement forward/head-down/back leaning, few clear lateral lean examples. No five-class labels."
+}

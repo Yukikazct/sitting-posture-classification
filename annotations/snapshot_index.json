@@ -1,0 +1,114 @@
+{
+  "snapshot_date": "2026-10-26",
+  "notice": "Historical annotation files are byte-preserved. Absolute paths describe the acquisition machine; use the preparation script to create portable working copies. No RGB images or model weights included.",
+  "files": [
+    {
+      "source": "runs/stage2/coco_pilot/downloads.json",
+      "snapshot": "archive/coco/downloads.json",
+      "bytes": 757925,
+      "sha256": "c95e709b14e2f48324918ffa7d9f3af9e99dfff50186e53adde9a3c89a174d8a"
+    },
+    {
+      "source": "runs/stage2/coco_pilot/review.json",
+      "snapshot": "archive/coco/review.json",
+      "bytes": 833974,
+      "sha256": "cf635f5ace93f5703573550a241966d4f31e6214ad36eaaefd45877d6c0c0f05"
+    },
+    {
+      "source": "runs/stage2/coco_pilot/screening.json",
+      "snapshot": "archive/coco/screening.json",
+      "bytes": 50438,
+      "sha256": "61be91732295d5b09ca3f13817d99ccc49684060d0ec4b108d0f9adca0227967"
+    },
+    {
+      "source": "runs/stage2/classmate_merge/classmate_review_candidates.json",
+      "snapshot": "archive/classmate/candidates.json",
+      "bytes": 167125,
+      "sha256": "bf8e0d2e229f9d812bdbcec05f91c288e267808a8ea012d20e81010366ade56b"
+    },
+    {
+      "source": "runs/stage2/classmate_merge/review.json",
+      "snapshot": "archive/classmate/review.json",
+      "bytes": 235033,
+      "sha256": "0c88dfd6bacf77e29a508814b1f28f33901bb8da7e3552ed8e34dfed9dc3db0e"
+    },
+    {
+      "source": "runs/stage2/classmate_merge/source_manifest.json",
+      "snapshot": "archive/classmate/source_manifest.json",
+      "bytes": 205698,
+      "sha256": "f749ff9f456ec646fb1c73ab163ac29ed4942c079e8a5f2d046398c26694c121"
+    },
+    {
+      "source": "runs/stage2/classmate_merge/held_records.csv",
+      "snapshot": "archive/classmate/held_records.csv",
+      "bytes": 13295,
+      "sha256": "92b776eebffd722467ee5c86a5c334f46644bff08699788df8f7d144d221cc1e"
+    },
+    {
+      "source": "runs/stage2/classmate_merge/label_changes.csv",
+      "snapshot": "archive/classmate/label_changes.csv",
+      "bytes": 1139,
+      "sha256": "117363c760e4d474ee1298e3d2ddc77bf105d67b5ef90ac992a3955e04a02598"
+    },
+    {
+      "source": "runs/stage2/classmate_merge/needs_seatedness_recheck.csv",
+      "snapshot": "archive/classmate/needs_seatedness_recheck.csv",
+      "bytes": 2808,
+      "sha256": "a62a57e3cb929992c5536c475102420a8f8a9d66ebc28c4619498864829aa0bf"
+    },
+    {
+      "source": "runs/stage2/classmate_merge/all_review_decisions.csv",
+      "snapshot": "archive/classmate/all_review_decisions.csv",
+      "bytes": 24883,
+      "sha256": "8c949a02160ad08f27837cc1300b714b2475900446fb09d72c5ccc6a70b2ae5d"
+    },
+    {
+      "source": "data/processed/merged_reviewed/manifest.csv",
+      "snapshot": "archive/merged_reviewed/manifest.csv",
+      "bytes": 66161,
+      "sha256": "77ee15cd6dd3f05a35203c4e426189d3f28492180ba9381a236593c3ced2822e"
+    },
+    {
+      "source": "data/processed/merged_reviewed/audit.json",
+      "snapshot": "archive/merged_reviewed/audit.json",
+      "bytes": 843795,
+      "sha256": "8b36db87b0fb93880c985d0bbceb22d98d452399d39ebc1d0e79ff9d21370012"
+    },
+    {
+      "source": "data/processed/merged_reviewed/summary.json",
+      "snapshot": "archive/merged_reviewed/summary.json",
+      "bytes": 3637,
+      "sha256": "70cae71bd1ee97e7c32a653baa00454ee5628f5dd62e15ceadbdf3678fa5398e"
+    },
+    {
+      "source": "runs/stage3/source_search/mpii/priority_candidates_v2.csv",
+      "snapshot": "mpii/priority_candidates_v2.csv",
+      "bytes": 34607,
+      "sha256": "0472a4925aeb7547c43168170f37b505c363c8a1aaccfe0d1542e1cd11148522"
+    },
+    {
+      "source": "runs/stage3/source_search/mpii/priority_candidates_v2.json",
+      "snapshot": "mpii/priority_candidates_v2.json",
+      "bytes": 97754,
+      "sha256": "f93da0e00abffcdf2e27812dbcb491674b197b08ed51d72ca56bdb40cc2b4cc3"
+    },
+    {
+      "source": "runs/stage3/source_search/mpii/sample_visual_check.json",
+      "snapshot": "mpii/sample_visual_check.json",
+      "bytes": 3668,
+      "sha256": "483b210a9e3b35eb53ab2861ecc5d27df825281e8a1fde0f67d0347275dcc85d"
+    },
+    {
+      "source": "runs/stage3/source_search/discovery/posture_photos_audit.json",
+      "snapshot": "source_evidence/posture_photos_audit.json",
+      "bytes": 1265,
+      "sha256": "72833963984fb30c50f7393cbf04e10ddf77a7a83b7b75102c91e25926824763"
+    },
+    {
+      "source": "runs/stage3/source_search/discovery/multiposture_audit.json",
+      "snapshot": "source_evidence/multiposture_audit.json",
+      "bytes": 750,
+      "sha256": "54d058a29636861ee1bcd7793cf3d8f8503194db677072e65c94108c3bc424b8"
+    }
+  ]
+}

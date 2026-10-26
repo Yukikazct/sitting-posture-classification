@@ -1,0 +1,3 @@
+# Candidate pools are bound to reviews by their exact byte hashes.
+# Preserve annotation snapshot bytes across Windows/macOS/Linux checkouts.
+annotations/** -text whitespace=cr-at-eol

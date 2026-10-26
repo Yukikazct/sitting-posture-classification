@@ -1,0 +1,1448 @@
+{
+  "schema_version": 1,
+  "reviewer": "assistant_visual_prescreen",
+  "source_pool_sha256": "c95e709b14e2f48324918ffa7d9f3af9e99dfff50186e53adde9a3c89a174d8a",
+  "note": "Visual relevance triage only. Does not supply four-class labels or overwrite any human annotation. Review original RGB when context is ambiguous. All original records are retained.",
+  "records": [
+    {
+      "sample_id": "coco_train2017_i000000443492_a211760",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立在人群中",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000311465_a1706682",
+      "decision": "uncertain",
+      "reason": "只见上半身，缺少坐姿支撑证据",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000405365_a478504",
+      "decision": "exclude_not_seated",
+      "reason": "目标穿滑雪装备站立",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000385337_a491332",
+      "decision": "exclude_not_seated",
+      "reason": "棒球场站立运动员",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000348795_a478077",
+      "decision": "exclude_unsuitable",
+      "reason": "吊床或悬挂休闲姿势，腿抬高，不是清晰常规坐姿",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000010094_a1741894",
+      "decision": "exclude_unsuitable",
+      "reason": "目标严重失焦，头躯干不可辨",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000289024_a422137",
+      "decision": "exclude_not_seated",
+      "reason": "网球运动中的跳跃",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000302213_a1297176",
+      "decision": "exclude_unsuitable",
+      "reason": "骑摩托车，非本轮静态坐姿场景",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000203965_a1301286",
+      "decision": "exclude_unsuitable",
+      "reason": "运动场局部头肩，躯干和座位不可辨",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000068657_a438820",
+      "decision": "keep_seated",
+      "reason": "原图明确显示目标坐在沙发上",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000232770_a516780",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立操作手中物品",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000259543_a509715",
+      "decision": "exclude_not_seated",
+      "reason": "目标撑伞站立",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000326354_a1214628",
+      "decision": "exclude_not_seated",
+      "reason": "棒球投掷动作",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000028835_a1725900",
+      "decision": "exclude_not_seated",
+      "reason": "红框目标站在前景另一人身后",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000247625_a445173",
+      "decision": "exclude_not_seated",
+      "reason": "目标穿雪服站立",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000208740_a440031",
+      "decision": "keep_seated",
+      "reason": "坐在有靠背的椅子上",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000138405_a1742958",
+      "decision": "exclude_unsuitable",
+      "reason": "图像严重模糊，无法辨认姿态",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000198856_a464690",
+      "decision": "keep_seated",
+      "reason": "坐在地面或低位，身旁为电脑",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000070307_a220221",
+      "decision": "exclude_not_seated",
+      "reason": "查看原图后确认站着俯身吹蜡烛",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000276076_a203462",
+      "decision": "exclude_unsuitable",
+      "reason": "骑行摩托车",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000505629_a221306",
+      "decision": "keep_seated",
+      "reason": "坐在户外长椅上",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000093384_a541126",
+      "decision": "exclude_unsuitable",
+      "reason": "只见面部与肩部，缺乏坐姿上下文",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000545929_a481931",
+      "decision": "exclude_not_seated",
+      "reason": "目标站着操作游戏控制器",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000477374_a435329",
+      "decision": "keep_seated",
+      "reason": "目标坐在地面摊位后方",
+      "page": "page_001.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000312289_a534329",
+      "decision": "exclude_not_seated",
+      "reason": "婚礼场景中目标站立",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000207935_a484847",
+      "decision": "exclude_not_seated",
+      "reason": "球场活动中的站立或运动",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000439427_a502543",
+      "decision": "exclude_not_seated",
+      "reason": "滑雪运动姿势",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000548175_a1233509",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立，未见坐姿",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000026780_a431683",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立于草地",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000049782_a480054",
+      "decision": "uncertain",
+      "reason": "侧面头肩特写，原图没有足够座位或腿部信息",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000313434_a204398",
+      "decision": "keep_seated",
+      "reason": "原图可确认目标坐在宴会桌旁",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000428142_a1315869",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000383756_a530006",
+      "decision": "keep_seated",
+      "reason": "目标坐在看台座位上",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000042921_a1236109",
+      "decision": "uncertain",
+      "reason": "儿童位于高桌旁，坐姿或站姿支撑无法可靠确认",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000136241_a493654",
+      "decision": "exclude_not_seated",
+      "reason": "原图显示目标在电梯里站立",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000043961_a1226101",
+      "decision": "keep_seated",
+      "reason": "原图显示目标坐在餐桌旁",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000298300_a432833",
+      "decision": "exclude_unsuitable",
+      "reason": "躺在床上，非坐姿",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000543665_a1749358",
+      "decision": "exclude_not_seated",
+      "reason": "目标步行或站立",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000333150_a1220528",
+      "decision": "keep_seated",
+      "reason": "目标坐于室内座位，膝部和椅背可见",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000335207_a448857",
+      "decision": "keep_seated",
+      "reason": "原图可见椅子扶手和坐着的腿部",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000303814_a484957",
+      "decision": "exclude_unsuitable",
+      "reason": "网球运动员头肩特写，不支持坐姿分类",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000102835_a427311",
+      "decision": "exclude_not_seated",
+      "reason": "网球击球运动姿势",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000558808_a1725386",
+      "decision": "exclude_not_seated",
+      "reason": "网球运动员站立",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000106508_a185226",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立指挥",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000132406_a449965",
+      "decision": "exclude_unsuitable",
+      "reason": "水上运动，非本轮静态坐姿",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000372045_a1692509",
+      "decision": "exclude_not_seated",
+      "reason": "网球运动员站立",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000413685_a1213799",
+      "decision": "exclude_not_seated",
+      "reason": "目标穿正装步行",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000156651_a2198263",
+      "decision": "uncertain",
+      "reason": "上半身特写，无法确认坐着",
+      "page": "page_002.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000360811_a2164108",
+      "decision": "keep_seated",
+      "reason": "原图显示目标坐在餐厅卡座",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000102159_a191456",
+      "decision": "exclude_not_seated",
+      "reason": "目标行走",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000019759_a1323909",
+      "decision": "exclude_unsuitable",
+      "reason": "人物局部且下半身缺失，不足以确认坐姿",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000164330_a431209",
+      "decision": "keep_seated",
+      "reason": "目标坐在餐厅卡座",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000574282_a542651",
+      "decision": "exclude_not_seated",
+      "reason": "足球守门员运动姿势",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000507765_a535374",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000153573_a466756",
+      "decision": "exclude_unsuitable",
+      "reason": "头部出画且操作台遮挡，坐姿不清",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000285651_a468213",
+      "decision": "exclude_not_seated",
+      "reason": "滑板动作",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000039009_a1720540",
+      "decision": "exclude_unsuitable",
+      "reason": "仅手部食物与躯干局部，头部出画",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000155811_a1305765",
+      "decision": "exclude_not_seated",
+      "reason": "目标站立或步行",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000073201_a1735204",
+      "decision": "uncertain",
+      "reason": "餐桌遮挡下半身，座椅支撑证据不足",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000552054_a234850",
+      "decision": "keep_seated",
+      "reason": "目标坐在长椅上查看手中物品",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000056452_a458216",
+      "decision": "keep_seated",
+      "reason": "目标坐在折叠椅上",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000233871_a545167",
+      "decision": "keep_seated",
+      "reason": "目标坐在桌旁椅子上",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000161367_a1268453",
+      "decision": "exclude_unsuitable",
+      "reason": "原图前景人物仅头肩，躯干大量出画",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000064948_a1245056",
+      "decision": "keep_seated",
+      "reason": "目标坐在海边休闲椅",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000510735_a474396",
+      "decision": "keep_seated",
+      "reason": "目标坐在椅子上，上半身可辨",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000524002_a1202803",
+      "decision": "keep_seated",
+      "reason": "目标坐着使用笔记本电脑",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000341603_a484846",
+      "decision": "uncertain",
+      "reason": "靠背可见但躯干高度裁切，暂不放入主标注队列",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000498765_a2152434",
+      "decision": "keep_seated",
+      "reason": "目标坐在沙发上",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000569742_a1718847",
+      "decision": "keep_seated",
+      "reason": "目标坐在餐桌旁椅子上",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000165225_a1291988",
+      "decision": "keep_seated",
+      "reason": "目标坐着操作桌面设备",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000156846_a1252576",
+      "decision": "keep_seated",
+      "reason": "目标坐在电脑桌前",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000133690_a189310",
+      "decision": "keep_seated",
+      "reason": "目标坐在沙发抱着宠物",
+      "page": "page_003.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000095308_a215426",
+      "decision": "uncertain",
+      "reason": "幼儿扶着椅子前倾，原图未清楚显示臀部支撑，无法确认已坐下。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000521663_a1260560",
+      "decision": "keep_seated",
+      "reason": "棒球服人物明确坐在高凳上，头部和上身完整可见。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000047519_a509201",
+      "decision": "exclude_not_seated",
+      "reason": "儿童站在桌边伸手操作，未落座。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000579440_a473903",
+      "decision": "exclude_not_seated",
+      "reason": "人物屈膝站在平衡板上玩游戏，没有座位支撑。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000563938_a1748202",
+      "decision": "uncertain",
+      "reason": "人物似已坐下，但主要为背侧面，头面部被头发遮住，需进一步判断可标性。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000464854_a1316633",
+      "decision": "keep_seated",
+      "reason": "条纹上衣人物坐在餐桌旁，头部与侧面躯干清楚。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000053897_a478565",
+      "decision": "keep_seated",
+      "reason": "儿童明确坐在高脚餐椅内，头部与上身可辨。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000422040_a1261108",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐桌旁的椅子上，侧面头部和躯干可辨。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000245209_a480355",
+      "decision": "exclude_not_seated",
+      "reason": "人物站立挥动游戏手柄，旁边有椅子但未坐下。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000400190_a421522",
+      "decision": "uncertain",
+      "reason": "原图确认人物坐在沙发上，但前景儿童和手臂遮挡其大部分躯干。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000479501_a227574",
+      "decision": "keep_seated",
+      "reason": "儿童坐在成人腿上，目标头部与躯干仍可区分；属于有成人支撑的坐姿候选。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000463290_a226540",
+      "decision": "keep_seated",
+      "reason": "人物坐在沙发上，腿部前伸，头和上身清楚。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000437073_a207189",
+      "decision": "exclude_not_seated",
+      "reason": "制服人物直立站在室外，手持箱子，没有落座。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000048575_a1734394",
+      "decision": "uncertain",
+      "reason": "人物明确在桌前坐着，但为背侧面且头发遮住面部，需判断能否用于四类标注。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000356330_a1214141",
+      "decision": "keep_seated",
+      "reason": "儿童坐在沙发上，原图显示座位支撑，头与上身清楚。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000320249_a1294026",
+      "decision": "keep_seated",
+      "reason": "人物坐在椅子上接电话，头部和躯干可辨。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000028719_a2207576",
+      "decision": "keep_seated",
+      "reason": "儿童坐在餐椅上，座位和弯曲腿部可见。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000471686_a197560",
+      "decision": "keep_seated",
+      "reason": "人物明确坐在扶手椅上，头部至躯干完整。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000089922_a456846",
+      "decision": "keep_seated",
+      "reason": "儿童坐在高脚餐椅内，头和上身可辨。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000122264_a2156259",
+      "decision": "uncertain",
+      "reason": "人物在会议桌旁落座，但裁剪主要是背面长发，头面部和躯干关系难判断。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000254984_a423720",
+      "decision": "exclude_unsuitable",
+      "reason": "人物侧卧在床上，不属于本项目所需坐姿候选。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000400343_a183459",
+      "decision": "keep_seated",
+      "reason": "人物坐在椅子上面对电脑，侧面头部及躯干轮廓可辨。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000439765_a212638",
+      "decision": "keep_seated",
+      "reason": "原图显示人物坐在沙发上托腮，头部和前倾上身清楚。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000059367_a235395",
+      "decision": "keep_seated",
+      "reason": "人物坐在单人沙发内持游戏手柄，头部和躯干可见。",
+      "page": 4
+    },
+    {
+      "sample_id": "coco_train2017_i000000147806_a473581",
+      "decision": "exclude_not_seated",
+      "reason": "红框目标是站在顾客身后的理发师，并非前景坐着的顾客。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000514990_a2157216",
+      "decision": "uncertain",
+      "reason": "人物明确坐在椅子上，但只有背面头部和背部，面部及前后倾信息不足。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000462138_a484697",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐桌旁，头部和上身清晰可见。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000013662_a524643",
+      "decision": "uncertain",
+      "reason": "人物坐在户外椅子内，但背面、椅背和阴影使躯干及头部信息不足。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000228732_a439821",
+      "decision": "exclude_unsuitable",
+      "reason": "兜帽遮住面部且椅背遮住大部分躯干，不能可靠观察头身姿态。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000159972_a518928",
+      "decision": "keep_seated",
+      "reason": "人物明确坐在高凳上，头部、躯干及腿部均可见。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000199577_a1276887",
+      "decision": "keep_seated",
+      "reason": "人物坐在扶手沙发中稍后靠，座位支撑和头躯干清楚。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000053004_a1207606",
+      "decision": "exclude_not_seated",
+      "reason": "蓝衣人物站在室内持手柄，双腿承重，未落座。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000342807_a497213",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐椅上回头，头和躯干可区分；转身是否适合四类需后续人工决定。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000155914_a465771",
+      "decision": "uncertain",
+      "reason": "原图像是在餐桌旁坐着，但近景裁掉大部分躯干与臀部，坐姿及躯干角度信息不足。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000456341_a503795",
+      "decision": "uncertain",
+      "reason": "人物坐在背景沙发上，但分辨率低、头部细节模糊，需复核可标性。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000022953_a2156178",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐桌旁的椅子上，头部与侧面上身可辨。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000246009_a2151189",
+      "decision": "keep_seated",
+      "reason": "儿童明确坐在餐椅内进食，头部和上身清楚。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000575627_a2159448",
+      "decision": "exclude_unsuitable",
+      "reason": "目标过暗且严重模糊，无法可靠定位头部和躯干姿态。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000189148_a1314445",
+      "decision": "keep_seated",
+      "reason": "人物坐在桌前阅读或书写，座椅与头躯干轮廓可见。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000034835_a238970",
+      "decision": "uncertain",
+      "reason": "前景儿童伸臂玩游戏，但下身在画面外，无法确认坐在地面还是站立。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000387645_a440150",
+      "decision": "exclude_not_seated",
+      "reason": "原图显示儿童站在餐桌边，身体竖直延伸到画面下方，没有落座证据。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000301195_a1287468",
+      "decision": "uncertain",
+      "reason": "人物坐在宴会桌旁，但完全背对镜头，椅背遮挡下部躯干。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000209166_a1200931",
+      "decision": "exclude_unsuitable",
+      "reason": "红框目标只剩腰臀和腿部，头部与上身在画面外。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000102872_a225794",
+      "decision": "exclude_not_seated",
+      "reason": "人物站在户外椅子后，未坐下。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000157469_a548160",
+      "decision": "uncertain",
+      "reason": "人物坐在办公椅上，但背对镜头且椅背遮住大部分躯干，姿态可标性待定。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000577830_a1254377",
+      "decision": "keep_seated",
+      "reason": "人物坐在户外餐椅上，头、躯干和屈曲腿部清楚。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000380420_a192483",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐椅上转头看镜头，头部与躯干可见。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000310457_a538988",
+      "decision": "keep_seated",
+      "reason": "人物坐在椅子上看手机，头部和躯干轮廓可辨。",
+      "page": 5
+    },
+    {
+      "sample_id": "coco_train2017_i000000518764_a194194",
+      "decision": "keep_seated",
+      "reason": "前景人物坐在沙发上持手柄，头部与上身清楚。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000492084_a528577",
+      "decision": "uncertain",
+      "reason": "儿童靠在成人身旁刷牙，臀部和腿部未显示，坐着或站在沙发上的状态无法区分。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000436273_a195867",
+      "decision": "keep_seated",
+      "reason": "人物坐在桌旁的凳子上，头部和上身清楚。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000122264_a449207",
+      "decision": "keep_seated",
+      "reason": "人物坐在会议桌旁操作电脑，侧面头部与躯干轮廓可辨。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000017967_a564620",
+      "decision": "keep_seated",
+      "reason": "人物坐在沙发上玩游戏，头部、躯干和腿部可见。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000574812_a2030534",
+      "decision": "uncertain",
+      "reason": "儿童在椅子与桌边背对镜头，下身与支撑关系不清，不能确定已坐下。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000183372_a203137",
+      "decision": "exclude_unsuitable",
+      "reason": "原图和目标裁剪均将头部切出画面，无法用于头身姿态判断。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000223241_a477174",
+      "decision": "keep_seated",
+      "reason": "人物坐在扶手椅上抱婴儿并看电脑，头部和躯干仍可辨；局部遮挡需后续复核。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000122780_a473947",
+      "decision": "uncertain",
+      "reason": "儿童在桌边前探吹蜡烛，座位附近可见但臀部支撑被桌椅遮住，坐站状态不确定。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000118369_a507389",
+      "decision": "keep_seated",
+      "reason": "原图确认人物坐在沙发上俯身进食，头部及上身清楚。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000273704_a500519",
+      "decision": "keep_seated",
+      "reason": "儿童坐在高脚餐椅中，头部和躯干清晰。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000064093_a1323668",
+      "decision": "uncertain",
+      "reason": "人物坐在户外餐椅上，但主要是背面且椅背遮挡，头身姿态需另行复核。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000066420_a463391",
+      "decision": "uncertain",
+      "reason": "人物坐在桌前背对镜头，长发与椅背遮挡头面部和躯干。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000318132_a195820",
+      "decision": "keep_seated",
+      "reason": "儿童明确坐在带靠背的座位中，头部和上身可见。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000477567_a184857",
+      "decision": "keep_seated",
+      "reason": "人物坐在沙发边缘，侧面头部、躯干及腿部清楚。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000243260_a211967",
+      "decision": "uncertain",
+      "reason": "人物坐在餐厅卡座内，但头部右侧和下部躯干被画面边缘裁掉，姿态可判定性不足。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000483135_a1737102",
+      "decision": "keep_seated",
+      "reason": "人物坐在沙发上抱儿童，成人目标头部和躯干可以区分。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000468537_a536861",
+      "decision": "exclude_not_seated",
+      "reason": "人物在室内直立站着，与椅子重叠但未落座。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000274267_a1262527",
+      "decision": "keep_seated",
+      "reason": "原图确认人物坐在餐桌旁，侧面头部和上身可辨。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000326757_a205268",
+      "decision": "exclude_not_seated",
+      "reason": "人物背对镜头站在桌椅旁，双腿伸直承重。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000435579_a500731",
+      "decision": "uncertain",
+      "reason": "目标是背景雪场座椅上的人物，确有坐姿但尺寸小、头部细节模糊，需复核可用性。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000450864_a1724475",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐椅上，头、上身和座椅支撑可见。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000560349_a478033",
+      "decision": "keep_seated",
+      "reason": "红框目标为沙发中间已坐下的男孩，头部与上身可辨。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000348288_a486894",
+      "decision": "exclude_unsuitable",
+      "reason": "大型玩具遮住几乎整个躯干，只能看到头和双臂，不能判断头身关系。",
+      "page": 6
+    },
+    {
+      "sample_id": "coco_train2017_i000000371137_a218552",
+      "decision": "keep_seated",
+      "reason": "人物明确坐在电脑桌前的办公椅上，头部、躯干及腿部完整。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000463055_a434589",
+      "decision": "uncertain",
+      "reason": "儿童坐在椅子上面对电脑，但为完全背面，面部和头颈姿态信息不足。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000076753_a214231",
+      "decision": "exclude_not_seated",
+      "reason": "人物跪在地上伸臂，并非坐椅或坐地姿势。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000113246_a517491",
+      "decision": "keep_seated",
+      "reason": "人物坐在椅子内盘腿，头和躯干清楚；盘腿是否纳入四类需后续人工确认。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000520094_a465825",
+      "decision": "exclude_not_seated",
+      "reason": "人物站在餐椅旁饮水，身体竖直承重，未落座。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000342849_a222455",
+      "decision": "uncertain",
+      "reason": "儿童身后有椅背，但下身出画且托盘遮挡，不能确认实际落座状态。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000471647_a2155550",
+      "decision": "keep_seated",
+      "reason": "人物坐在沙发上阅读，头部和躯干轮廓可见。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000439118_a189610",
+      "decision": "keep_seated",
+      "reason": "人物坐在椅子上持方向盘游戏，头部、躯干与屈曲腿部清楚。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000530706_a1714288",
+      "decision": "uncertain",
+      "reason": "人物坐在电脑前，但背对镜头且图像模糊，头面部与躯干关系难判断。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000221614_a1268063",
+      "decision": "exclude_not_seated",
+      "reason": "人物直立站在室内，前景椅子不是其坐姿支撑。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000347167_a458823",
+      "decision": "uncertain",
+      "reason": "红框目标是后排蓝衣人物，坐姿存在，但前景人物遮挡且目标失焦，姿态可判定性不足。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000210845_a1325920",
+      "decision": "exclude_not_seated",
+      "reason": "原图显示目标站在餐桌左侧背景，未落座。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000246553_a1725514",
+      "decision": "exclude_not_seated",
+      "reason": "人物站立伸臂玩游戏，双腿承重，未坐下。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000515821_a506591",
+      "decision": "keep_seated",
+      "reason": "前景蓝衣人物坐在沙发上玩游戏，头部、躯干和腿部可辨。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000347754_a202984",
+      "decision": "keep_seated",
+      "reason": "人物坐在沙发上，头部及完整躯干清楚。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000245116_a206935",
+      "decision": "keep_seated",
+      "reason": "人物坐在扶手椅上，头部与躯干清楚可见。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000244597_a429139",
+      "decision": "keep_seated",
+      "reason": "原图显示人物坐在工作台前的凳子上，侧面头部和躯干清楚。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000412238_a435656",
+      "decision": "uncertain",
+      "reason": "目标坐在餐椅上背对镜头，椅背遮住躯干且面部不可见。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000020935_a1251266",
+      "decision": "exclude_not_seated",
+      "reason": "人物站在椅子旁，腿部伸直，没有落座。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000495477_a475119",
+      "decision": "keep_seated",
+      "reason": "儿童明确坐在木椅上，头部、躯干和双腿清楚。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000341455_a2163937",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐桌旁，头部与上身清晰可见。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000014941_a453539",
+      "decision": "uncertain",
+      "reason": "儿童坐在扶手椅上，但玩具遮住下部躯干与双手，需复核头身关系是否足够可辨。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000064263_a220199",
+      "decision": "exclude_not_seated",
+      "reason": "男孩站在沙发前持游戏手柄，并非坐在沙发上。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000089227_a1267232",
+      "decision": "exclude_unsuitable",
+      "reason": "图像几乎全黑且目标极模糊，无法可靠确认坐姿或头躯干位置。",
+      "page": 7
+    },
+    {
+      "sample_id": "coco_train2017_i000000486318_a197171",
+      "decision": "exclude_not_seated",
+      "reason": "人物站立挥动手柄，旁边有椅子但未坐下。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000464490_a530948",
+      "decision": "keep_seated",
+      "reason": "绿衣人物坐在椅子上玩游戏，头部、躯干与腿部可辨。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000075682_a183520",
+      "decision": "keep_seated",
+      "reason": "人物明确坐在电脑桌旁，侧面头部和躯干完整。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000320039_a423809",
+      "decision": "exclude_unsuitable",
+      "reason": "极近景主要显示脸和手臂，下部躯干与臀部均在画面外。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000029161_a475428",
+      "decision": "keep_seated",
+      "reason": "红框目标坐在沙发上使用电脑，侧面头部、躯干和腿部可辨。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000207463_a531712",
+      "decision": "keep_seated",
+      "reason": "人物坐在椅子上持手柄，头、上身及腿部清楚。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000380429_a547302",
+      "decision": "uncertain",
+      "reason": "儿童在桌边伸手拿水果，臀部被桌面与椅子遮住，无法区分坐着还是站在椅子上。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000111543_a183256",
+      "decision": "exclude_not_seated",
+      "reason": "人物双腿站立并俯身靠近水池，不属于坐姿。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000257971_a192249",
+      "decision": "keep_seated",
+      "reason": "原图显示人物靠坐在沙发上，头部与上身可辨。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000560349_a493186",
+      "decision": "uncertain",
+      "reason": "人物从沙发前屈或起身，臀部支撑不清，不能确定稳定坐姿。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000129568_a505104",
+      "decision": "keep_seated",
+      "reason": "人物坐在看台座位上，头部与躯干可见；前方栏杆属于局部遮挡。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000539682_a1240087",
+      "decision": "keep_seated",
+      "reason": "人物坐在餐椅上进食，头部和上身清楚。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000025896_a485710",
+      "decision": "keep_seated",
+      "reason": "人物明确坐在户外椅子上，头、躯干与腿部完整。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000044147_a455763",
+      "decision": "exclude_not_seated",
+      "reason": "人物正在滑板动作中屈腿，属于运动姿势，没有座位支撑。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000056292_a1704824",
+      "decision": "uncertain",
+      "reason": "目标坐在场边长凳上，但铁丝网覆盖头部和躯干且人物尺寸较小，可标性待复核。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000072442_a494382",
+      "decision": "exclude_not_seated",
+      "reason": "人物在滑板上屈腿滑行，不是坐姿。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000085018_a516757",
+      "decision": "exclude_not_seated",
+      "reason": "人物在树林中迈步或屈腿运动，没有坐下的支撑。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000097591_a455179",
+      "decision": "keep_seated",
+      "reason": "人物坐在户外折叠椅上，头、躯干及腿部清楚。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000133467_a194548",
+      "decision": "uncertain",
+      "reason": "人物明确坐在长凳上，但完全背对镜头且凳背遮挡下部躯干。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000147653_a468009",
+      "decision": "exclude_not_seated",
+      "reason": "人物正在跳跃滑板动作中，屈膝不能视为坐姿。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000262454_a1324690",
+      "decision": "exclude_not_seated",
+      "reason": "人物手持飞盘跑动或屈腿运动，没有座位支撑。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000303026_a434418",
+      "decision": "keep_seated",
+      "reason": "人物坐在户外木头或矮台上，头部和躯干清楚。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000315173_a187732",
+      "decision": "keep_seated",
+      "reason": "红框前景人物坐在场边长凳上，侧面头、躯干和腿部清楚。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000358079_a490027",
+      "decision": "uncertain",
+      "reason": "人物坐在长凳上，但伞、阴影和围巾遮住头面部，头身姿态难判断。",
+      "page": 8
+    },
+    {
+      "sample_id": "coco_train2017_i000000378921_a439898",
+      "decision": "exclude_not_seated",
+      "reason": "棒球场跪姿或弓步",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000384323_a429475",
+      "decision": "exclude_not_seated",
+      "reason": "滑雪跳跃",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000415641_a1203031",
+      "decision": "exclude_not_seated",
+      "reason": "棒球裁判蹲姿",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000432432_a424493",
+      "decision": "exclude_not_seated",
+      "reason": "棒球场下蹲",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000467791_a510071",
+      "decision": "exclude_not_seated",
+      "reason": "棒球捕手蹲姿",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000468382_a2160772",
+      "decision": "exclude_unsuitable",
+      "reason": "骑车且高度模糊",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000522233_a1733568",
+      "decision": "exclude_not_seated",
+      "reason": "草地运动中的半蹲",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000523576_a262936",
+      "decision": "exclude_not_seated",
+      "reason": "滑板运动",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000254983_a472550",
+      "decision": "exclude_not_seated",
+      "reason": "棒球挥棒动作",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000361454_a208052",
+      "decision": "exclude_not_seated",
+      "reason": "滑板动作",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000031752_a1250976",
+      "decision": "exclude_not_seated",
+      "reason": "棒球场半蹲",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000114473_a195805",
+      "decision": "keep_seated",
+      "reason": "目标坐在驾驶座或操作座上，座位和弯曲腿可见",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000379211_a1294597",
+      "decision": "exclude_not_seated",
+      "reason": "原图确认目标单膝跪地合照",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000364243_a460243",
+      "decision": "exclude_unsuitable",
+      "reason": "骑摩托车",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000080448_a2206242",
+      "decision": "exclude_not_seated",
+      "reason": "棒球场下蹲",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000324999_a185962",
+      "decision": "keep_seated",
+      "reason": "目标坐在台阶或矮墙上",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000195437_a258738",
+      "decision": "keep_seated",
+      "reason": "目标坐在户外椅子上",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000201389_a441584",
+      "decision": "exclude_not_seated",
+      "reason": "滑板运动",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000147471_a258465",
+      "decision": "keep_seated",
+      "reason": "原图显示目标坐在林间石块或低位座面",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000208055_a1315208",
+      "decision": "exclude_unsuitable",
+      "reason": "骑自行车",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000580741_a185646",
+      "decision": "keep_seated",
+      "reason": "目标坐在沙发上",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000027471_a433525",
+      "decision": "exclude_not_seated",
+      "reason": "网球击球动作",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000255983_a1322934",
+      "decision": "keep_seated",
+      "reason": "目标坐在长椅上",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000317162_a219279",
+      "decision": "keep_seated",
+      "reason": "目标盘腿坐在地面",
+      "page": "page_009.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000319579_a545369",
+      "decision": "keep_seated",
+      "reason": "目标坐在教室椅子上读写",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000036113_a524809",
+      "decision": "keep_seated",
+      "reason": "目标坐在长凳上",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000014494_a459992",
+      "decision": "keep_seated",
+      "reason": "目标坐在岸边或沙滩，坐姿轮廓可辨",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000268987_a426415",
+      "decision": "keep_seated",
+      "reason": "目标坐在木长椅上",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000209166_a206161",
+      "decision": "keep_seated",
+      "reason": "目标坐在座椅上",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000119834_a515910",
+      "decision": "keep_seated",
+      "reason": "目标坐在沙发扶手或座面上",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000571848_a185571",
+      "decision": "exclude_unsuitable",
+      "reason": "摩托车骑乘场景",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000317306_a441785",
+      "decision": "exclude_not_seated",
+      "reason": "棒球场跪地或滑垒动作",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000442268_a444395",
+      "decision": "keep_seated",
+      "reason": "目标坐在公园长椅上",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000285558_a2001439",
+      "decision": "uncertain",
+      "reason": "低光严重，躯干和支撑不够清晰",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000304445_a186085",
+      "decision": "exclude_unsuitable",
+      "reason": "骑自行车",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000415280_a1706575",
+      "decision": "exclude_unsuitable",
+      "reason": "雕像，不是真实人物坐姿样本",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000559303_a439888",
+      "decision": "exclude_unsuitable",
+      "reason": "在摩托车上半躺并抬高双腿",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000203179_a204887",
+      "decision": "exclude_unsuitable",
+      "reason": "主要是手持猫，人物头和躯干不完整",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000258837_a447298",
+      "decision": "exclude_not_seated",
+      "reason": "滑板跳跃",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000448105_a1214924",
+      "decision": "exclude_not_seated",
+      "reason": "跑步运动",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000281194_a184925",
+      "decision": "exclude_unsuitable",
+      "reason": "坐姿局部但头肩出画，不支持四类判断",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000128334_a432800",
+      "decision": "keep_seated",
+      "reason": "目标坐在沙发上",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000429000_a186769",
+      "decision": "keep_seated",
+      "reason": "前方红框目标儿童坐着，头躯干可辨",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000197221_a505974",
+      "decision": "exclude_not_seated",
+      "reason": "目标背对镜头站立",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000481454_a203971",
+      "decision": "exclude_unsuitable",
+      "reason": "骑自行车",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000560757_a478519",
+      "decision": "exclude_not_seated",
+      "reason": "水上冲浪运动",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000567149_a1721397",
+      "decision": "exclude_unsuitable",
+      "reason": "摩托车骑乘场景",
+      "page": "page_010.jpg"
+    },
+    {
+      "sample_id": "coco_train2017_i000000030681_a426709",
+      "decision": "keep_seated",
+      "reason": "目标坐在公园长椅上",
+      "page": "page_010.jpg"
+    }
+  ]
+}
