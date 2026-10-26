@@ -1,0 +1,104 @@
+{
+  "updated_at": "2026-10-25T14:48:32+08:00",
+  "scope": "human-reviewed development data; target localization and train/validation assignment pending",
+  "classmate_candidates": 91,
+  "classmate_status_counts": {
+    "accepted": 76,
+    "excluded": 15
+  },
+  "classmate_final_label_counts": {
+    "upright": 38,
+    "head_down": 20,
+    "side_lean": 3,
+    "forward_lean": 15
+  },
+  "classmate_accepted_label_changes": 9,
+  "source_accepted_counts": {
+    "coco": 78,
+    "classmate_provided": 76
+  },
+  "merged_accepted": 154,
+  "class_counts": {
+    "upright": 75,
+    "head_down": 34,
+    "forward_lean": 33,
+    "side_lean": 12
+  },
+  "view_counts": {
+    "unknown": 11,
+    "side": 56,
+    "front": 38,
+    "oblique": 49
+  },
+  "human_decision_count": 224,
+  "human_decision_status_counts": {
+    "accepted": 154,
+    "excluded": 70
+  },
+  "seatedness_recheck_ids": [
+    "coco_train2017_i000000049782_a480054",
+    "coco_train2017_i000000070307_a220221",
+    "coco_train2017_i000000276076_a203462",
+    "coco_train2017_i000000405365_a478504",
+    "coco_train2017_i000000443492_a211760"
+  ],
+  "target_localization_pending": 76,
+  "input_sha256": {
+    "D:\\learning\\cs\\神经网络大作业\\sitting-posture-classification\\runs\\stage2\\coco_pilot\\downloads.json": "c95e709b14e2f48324918ffa7d9f3af9e99dfff50186e53adde9a3c89a174d8a",
+    "D:\\learning\\cs\\神经网络大作业\\sitting-posture-classification\\runs\\stage2\\coco_pilot\\review.json": "cf635f5ace93f5703573550a241966d4f31e6214ad36eaaefd45877d6c0c0f05",
+    "D:\\learning\\cs\\神经网络大作业\\sitting-posture-classification\\runs\\stage2\\classmate_merge\\classmate_review_candidates.json": "bf8e0d2e229f9d812bdbcec05f91c288e267808a8ea012d20e81010366ade56b",
+    "D:\\learning\\cs\\神经网络大作业\\sitting-posture-classification\\runs\\stage2\\classmate_merge\\review.json": "0c88dfd6bacf77e29a508814b1f28f33901bb8da7e3552ed8e34dfed9dc3db0e"
+  },
+  "manifest_validation": {
+    "sample_count": 154,
+    "class_counts": {
+      "upright": 75,
+      "head_down": 34,
+      "forward_lean": 33,
+      "side_lean": 12
+    },
+    "split_counts": {
+      "train": 0,
+      "val": 0,
+      "test": 0,
+      "unassigned": 154
+    },
+    "class_counts_by_split": {
+      "train": {
+        "upright": 0,
+        "head_down": 0,
+        "forward_lean": 0,
+        "side_lean": 0
+      },
+      "val": {
+        "upright": 0,
+        "head_down": 0,
+        "forward_lean": 0,
+        "side_lean": 0
+      },
+      "test": {
+        "upright": 0,
+        "head_down": 0,
+        "forward_lean": 0,
+        "side_lean": 0
+      }
+    },
+    "missing_identity_counts": {
+      "subject_id": 154,
+      "video_id": 154,
+      "group_id": 0
+    },
+    "limitations": [
+      "subject_id is missing for 154/154 samples; isolation by this identity cannot be verified.",
+      "video_id is missing for 154/154 samples; isolation by this identity cannot be verified.",
+      "Path and identity checks do not detect visually duplicated files; audit image content and crop provenance separately."
+    ]
+  },
+  "training_ready": false,
+  "notes": [
+    "Final labels are the user's latest explicit human choices, not source directory names.",
+    "Five old seatedness disagreements remain reminders; their human labels were not changed or removed automatically.",
+    "New accepted records lack target boxes and target notes; choose/confirm the target person before pose extraction.",
+    "All entries are development-only; no final test allocation is made."
+  ]
+}

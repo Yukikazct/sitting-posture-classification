@@ -1,0 +1,10 @@
+﻿sample_id,source,source_label,status,label,view,reason,note,annotator,revision,saved_at
+classmate_upright_0005,classmate_provided,upright,accepted,head_down,oblique,,,1,1,2026-10-25T06:30:04.172+00:00
+classmate_upright_0026,classmate_provided,upright,accepted,head_down,side,,,1,1,2026-10-25T06:32:40.797+00:00
+classmate_upright_0028,classmate_provided,upright,accepted,head_down,oblique,,,1,1,2026-10-25T06:32:59.276+00:00
+classmate_upright_0029,classmate_provided,upright,accepted,head_down,oblique,,,1,1,2026-10-25T06:33:04.999+00:00
+classmate_upright_0035,classmate_provided,upright,accepted,head_down,oblique,,,1,1,2026-10-25T06:33:44.148+00:00
+classmate_upright_0049,classmate_provided,upright,accepted,head_down,oblique,,,1,1,2026-10-25T06:34:18.047+00:00
+classmate_forward_lean_0000,classmate_provided,forward_lean,accepted,side_lean,unknown,,,1,1,2026-10-25T06:38:12.445+00:00
+classmate_forward_lean_0024,classmate_provided,forward_lean,accepted,side_lean,unknown,,,1,1,2026-10-25T06:42:00.753+00:00
+classmate_side_lean_0000,classmate_provided,side_lean,accepted,forward_lean,side,,,1,1,2026-10-25T06:42:08.135+00:00

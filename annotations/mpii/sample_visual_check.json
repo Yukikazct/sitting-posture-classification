@@ -1,0 +1,106 @@
+{
+  "scope": "source usability prescreen, not human class labels",
+  "counts": {
+    "uncertain": 4,
+    "visible_seated_candidate": 6,
+    "outside_task": 2
+  },
+  "records": [
+    {
+      "image_filename": "034184904.jpg",
+      "decision": "uncertain",
+      "reason": "seat/lower torso context insufficient to establish intended seated target",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "038371535.jpg",
+      "decision": "visible_seated_candidate",
+      "reason": "requires target-person and five-class human review",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "086261810.jpg",
+      "decision": "visible_seated_candidate",
+      "reason": "requires target-person and five-class human review",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "003156750.jpg",
+      "decision": "uncertain",
+      "reason": "seat/lower torso context insufficient to establish intended seated target",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "099861732.jpg",
+      "decision": "uncertain",
+      "reason": "seat/lower torso context insufficient to establish intended seated target",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "077373174.jpg",
+      "decision": "outside_task",
+      "reason": "floor sitting is outside the agreed chair/bench sitting scope",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "036765805.jpg",
+      "decision": "uncertain",
+      "reason": "seat/lower torso context insufficient to establish intended seated target",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "090598791.jpg",
+      "decision": "outside_task",
+      "reason": "visible people are standing at the piano",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "022372573.jpg",
+      "decision": "visible_seated_candidate",
+      "reason": "requires target-person and five-class human review",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "037410574.jpg",
+      "decision": "visible_seated_candidate",
+      "reason": "requires target-person and five-class human review",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "054285535.jpg",
+      "decision": "visible_seated_candidate",
+      "reason": "requires target-person and five-class human review",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    },
+    {
+      "image_filename": "007644401.jpg",
+      "decision": "visible_seated_candidate",
+      "reason": "requires target-person and five-class human review",
+      "posture_label": null,
+      "reviewer": "assistant_visual_source_check",
+      "development_only": true
+    }
+  ]
+}
